@@ -1,0 +1,149 @@
+body{
+		position: absolute;
+		left: 10%;
+	}
+	.main{
+		background-color: yellow;
+		width: 910px;
+		height: 1040px;
+	}
+	header{
+		position: relative;
+		top: 5px;
+		margin-left: 5px;
+		height: 350px;
+		width: 900px;
+		margin-bottom: 5px;
+		background-color: white;
+	}
+	.upside{
+		display: flex;
+	}
+	.upside .logo{
+		position: relative;
+		margin-left: 20px;
+		top: 30px;
+		left: 70%;
+	}
+	.sidebar{
+		display: flex;
+	}
+	.sidebar li{
+		font-size: 100%;
+		list-style-type: none;
+		padding-right: 5px;
+		padding-left: 15px;
+		display: inline;
+	}
+	.sidebar a{
+		text-decoration: none;
+		color: grey;
+	}
+	.sidebar a:hover{
+		color: orange;
+		transition: all .5s cubic-bezier(.25, .8, .25, 1);
+	}
+	.logo_2{
+		color: brown;
+		font-size: 500%;
+		font-family: sans-serif;
+	}
+	.logo_3{
+		position: relative;
+		color: white;
+		font-size: 300%;
+		font-family: sans-serif;
+		display: flex;
+		justify-content: flex-end;
+		top: 70px;
+	}
+	.text_decore_1{
+		background-color: brown;
+	}
+	.text_decore_2{
+		margin-left: 10px;
+		margin-right: 10px;
+		color: brown;
+	}
+	.text_decore_3{
+		background-color: green;
+	}
+	.content{
+		position: relative;
+		top: 5px;
+		margin-left: 5px;
+		width: 905px;
+		align-items: stretch;
+		display: flex;
+	}
+	.content div{
+		width: 300px;
+		padding: 10px;
+		margin-right: 5px;
+	}
+	.content div:nth-child(1){
+		background-color: #4169E1;
+		white-space: pre-line;
+		font-size: 150%;
+		color: white;
+	}
+	.FIRST-BAD-GUY{
+		font-size: 200%;
+	}
+	.content div:nth-child(2){
+		background-color: green;
+	}
+	.content div:nth-child(2) ul{
+		color: yellow;
+		padding-left: 15px;
+	}
+	.content div:nth-child(2) li{
+		padding: 2px;
+	}
+	.content div:nth-child(2) li:first-child{
+		margin-top: 50%;
+		padding-bottom: 13px;
+		list-style-type: none;
+		color: rgba(255, 255, 255, 0.9);
+		font-size: 150%;
+	}
+	.content div:nth-child(3){
+		background-color: #98FB98;
+	}
+	.content div:nth-child(3) li{
+		list-style-type: none
+	}
+	.content div:nth-child(3) li:before{
+		content: "\2718";
+		margin-right: 50px;
+	}
+	.content_decor_3{
+		margin-left: 30px;
+	}
+	footer{
+		position: relative;
+		top: 5px;
+		margin-left: 5px;
+		margin-top: 5px;
+		width: 900px;
+		height: 200px;
+		background-color: #D3D3D3;
+	}
+	footer .footer_main{
+		position: relative;
+		left: 597px;
+		top: -78px;
+		width: 300px;
+		height: 100px;
+		border: solid 1px;
+		background-color: #A9A9A9;
+	}
+	footer .footer_main .footer_dec1{
+		margin: 5px;
+	}
+	footer .footer_main .footer_dec2{
+		position: relative;
+		left: 200px;
+		top: 40px;
+		width: 100px;
+	}

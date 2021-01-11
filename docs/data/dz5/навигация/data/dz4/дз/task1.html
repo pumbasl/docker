@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Task1</title>
+	<style type="text/css">
+		div{
+			width: 100px;
+			height: 100px;
+			animation: fist 5s infinite ease-in-out;
+		}
+		@keyframes fist {
+			from{
+				transform: translate(0, 0);
+				background-color: red;
+			}
+			25%{
+				transform: translate(0, 300px);
+				background-color: blue;
+			}
+			50%{
+				transform: translate(300px, 300px);
+				background-color: green;
+			}
+			75%{
+				transform: translate(300px, 0);
+				background-color: yellow;
+			}
+			to{
+				transform: translate(0, 0);
+				background-color: red;
+			}
+		}
+	</style>
+</head>
+<body>
+
+<div></div>
+
+</body>
+</html>

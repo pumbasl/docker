@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Task1</title>
+	<style type="text/css">
+	body{
+		position: absolute;
+		left: 20%;
+	}
+	.main{
+		background-color: yellow;
+		width: 910px;
+		height: 1040px;
+	}
+	header{
+		position: relative;
+		top: 5px;
+		margin-left: 5px;
+		height: 350px;
+		width: 900px;
+		margin-bottom: 5px;
+		background-color: white;
+	}
+	.upside{
+		display: flex;
+	}
+	.upside .logo{
+		position: relative;
+		margin-left: 20px;
+		top: 30px;
+		left: 70%;
+	}
+	.sidebar{
+		display: flex;
+	}
+	.sidebar li{
+		font-size: 100%;
+		list-style-type: none;
+		padding-right: 5px;
+		padding-left: 15px;
+		display: inline;
+	}
+	.sidebar a{
+		text-decoration: none;
+		color: grey;
+	}
+	.sidebar a:hover{
+		color: orange;
+		transition: all .5s cubic-bezier(.25, .8, .25, 1);
+	}
+	.logo_2{
+		color: brown;
+		font-size: 500%;
+		font-family: sans-serif;
+	}
+	.logo_3{
+		position: relative;
+		color: white;
+		font-size: 300%;
+		font-family: sans-serif;
+		display: flex;
+		justify-content: flex-end;
+		top: 70px;
+	}
+	.text_decore_1{
+		background-color: brown;
+	}
+	.text_decore_2{
+		margin-left: 10px;
+		margin-right: 10px;
+		color: brown;
+	}
+	.text_decore_3{
+		background-color: green;
+	}
+	.content{
+		position: relative;
+		top: 5px;
+		margin-left: 5px;
+		width: 905px;
+		align-items: stretch;
+		display: flex;
+	}
+	.content div{
+		width: 300px;
+		padding: 10px;
+		margin-right: 5px;
+	}
+	.content div:nth-child(1){
+		background-color: #4169E1;
+		white-space: pre-line;
+		font-size: 150%;
+		color: white;
+	}
+	.FIRST-BAD-GUY{
+		font-size: 200%;
+	}
+	.content div:nth-child(2){
+		background-color: green;
+	}
+	.content div:nth-child(2) ul{
+		color: yellow;
+		padding-left: 15px;
+	}
+	.content div:nth-child(2) li{
+		padding: 2px;
+	}
+	.content div:nth-child(2) li:first-child{
+		margin-top: 50%;
+		padding-bottom: 13px;
+		list-style-type: none;
+		color: rgba(255, 255, 255, 0.9);
+		font-size: 150%;
+	}
+	.content div:nth-child(3){
+		background-color: #98FB98;
+	}
+	.content div:nth-child(3) li{
+		list-style-type: none
+	}
+	.content div:nth-child(3) li:before{
+		content: "\2718";
+		margin-right: 50px;
+	}
+	.content_decor_3{
+		margin-left: 30px;
+	}
+	footer{
+		position: relative;
+		top: 5px;
+		margin-left: 5px;
+		margin-top: 5px;
+		width: 900px;
+		height: 200px;
+		background-color: #D3D3D3;
+	}
+	footer .footer_main{
+		position: relative;
+		left: 597px;
+		top: -78px;
+		width: 300px;
+		height: 100px;
+		border: solid 1px;
+		background-color: #A9A9A9;
+	}
+	footer .footer_main .footer_dec1{
+		margin: 5px;
+	}
+	footer .footer_main .footer_dec2{
+		position: relative;
+		left: 200px;
+		top: 40px;
+	}
+	</style>
+</head>
+<body>
+	<div class="main">
+		<header>
+			<div class="upside">
+				<img src="img/settings.png" width="50px" style="margin-left: 15px; margin-top: 5px;">
+				<img src="img/logo.png" class="logo">
+			</div>
+			<div class="sidebar">
+				<ul>
+					<li><a href="#"><img src="img/magnifying-glass.png" width="13px"> Усi</a></li>
+					<li><a href="#"><img src="img/image.png" width="13px"> Зображення</a></li>
+					<li><a href="#"><img src="img/youtube.png" width="13px"> Вiдео</a></li>
+					<li><a href="#"><img src="img/newspaper.png" width="13px"> Новини</a></li>
+					<li><a href="#"><img src="img/shopping-bag.png" width="13px"> Покупки</a></li>
+					<li><a href="#"><img src="img/more.png" width="13px"> Бiльше</a></li>
+					<li><a href="#">Налаштування</a></li>
+				</ul>
+			</div>
+			<div class="logo_2">A-LeVeL</div>
+			<div class="logo_3"><span class="text_decore_1">CSS</span><span class="text_decore_2"> це </span><span class="text_decore_3">&#311;&#341;ут&#214;</span></div>
+		</header>
+		<div class="content">
+			<div>&emsp;<b><span class="FIRST-BAD-GUY">К</span>аскадные таблицы стилей (CSS)</b> используются для описания внешнего вида документа, написанного языком разметки. CSS привносит жизнь в HTML-документ, выбирая шрифты, применяя цвета,  элементы. <b>Объявление стиля состоит из двух частей:</b> элемента веб-страницы — <i>селектора</i>, и команды форматирования — <i>блока объявления</i>.</div>
+			<div><ul>
+				<li><b>Селекторы CSS:</b></li>
+				<li>универсальными;</li>
+				<li>електором элемента;</li>
+				<li>классовый селектор;</li>
+				<li>селектор ID.</li>
+			</ul></div>
+			<div><i class="content_decor_3">Примеры селекторов:</i>
+			<ul>
+				<li>* {}</li>
+				<li>p.class {}</li>
+				<li>*.class {}</li>
+				<li>.class {}</li>
+				<li>span {}</li>
+				<li>div#id</li>
+				<li>span#id</li>
+				<li>article#id</li>
+			</ul></div>
+		</div>
+	<footer>
+		<img src="img/footer1.png" width="200px" height="150px" style="margin: 10px;">
+		<div class="footer_main">
+			<div class="footer_dec1">Контакты: Харьков</div>
+			<div class="footer_dec2">ул. Дружбы 48</div>
+		</div>
+	</footer>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Task2</title>
+	<style type="text/css">
+	body{
+		font-family: Franklin Gothic Medium, sans-serif;
+	}
+	li {
+		list-style-type: none;
+		padding-top: 10px;
+	}
+
+    li:before {
+		content: "\21D2";
+    }
+
+    a{
+    	text-decoration: none;
+    	color: white;
+    }
+
+    a:hover{
+    	color: orange;
+    	transition: all .3s cubic-bezier(.25, .8, .25, 1);
+    }
+
+    .menu{
+    	float: left;
+    	left: -160px;
+    	position: relative;
+    	display: inline;
+    	width: 0px;
+    	transform: translateX(0px);
+    	transition: all 1s cubic-bezier(.25, .8, .25, 1);
+    }
+
+    .menu_hover{
+    	position: relative;
+    	background-color: #808080;
+    	color: white;
+    	height: 300px;
+    	width: 150px;
+    }
+
+    .menu_hide{
+    	position: relative;
+    	left: 10px;
+    	background-color: #808080;
+    	transform: rotate(90deg);
+    	text-align: center;
+    	color: white;
+    	height: 20px;
+    	width: 300px;
+    	top: -160px;
+    	opacity: 1;
+    	transition: all .3s cubic-bezier(.25, .8, .25, 1);
+    }
+
+    .menu:hover{
+    	transform: translateX(130px);
+    	transition: all 1s cubic-bezier(.25, .8, .25, 1);
+    }
+    .menu:hover .menu_hide{
+    	opacity: 0;
+    	transition: all .3s cubic-bezier(.25, .8, .25, 1);
+    }
+	</style>
+</head>
+<body>
+
+<div class="menu">
+	<div class="menu_hover">
+		<ul>
+			<li><a href="#"> HOME</a></li>
+			<li><a href="#"> CONTACTS</a></li>
+			<li><a href="#"> OUR TEAM</a></li>
+			<li><a href="#"> FAQ</a></li>
+			<li><a href="#"> ABOUT</a></li>
+			<li><a href="#"> NEWS</a></li>
+		</ul>
+	</div>
+	<div class="menu_hide">Menu here</div>
+</div>
+
+</body>
+</html>

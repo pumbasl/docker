@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Task7</title>
+	<style type="text/css">
+	.main{
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	.block{
+		width: 500px;
+		height: 20px;
+		margin-top: 15px;
+		border: 1px solid;
+	}
+	.main:hover .block{
+		width: 1000px;
+		transition: all 1s ease-in;
+	}
+	.main:hover .block:hover ~ .block{
+		width: 500px;
+		transition: all 1s ease-in;
+	}
+	</style>
+</head>
+<body>
+<div class="main">
+	<div class="block"></div>
+	<div class="block"></div>
+	<div class="block"></div>
+	<div class="block"></div>
+	<div class="block"></div>
+	<div class="block"></div>
+	<div class="block"></div>
+</div>
+
+</body>
+</html>

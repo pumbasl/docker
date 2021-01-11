@@ -1,0 +1,19 @@
+header {
+	text-align: center;
+	background-color: #0000ff;
+	border-radius: 10px;
+	padding: 15px;
+	margin-bottom: 10px;
+}
+
+div {
+    display: inline-flex; 
+    align-items: flex-start;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.first_block, .second_block, .third_block {
+	width: 33%;
+	background-color: #33FFA5; 
+}
